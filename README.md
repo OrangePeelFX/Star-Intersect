@@ -4,25 +4,31 @@ Ce programme sert à l'intersection des données mrcs de 2 fichiers STAR
 
 ## Haxe
 
-Pour lancer le programme en Neko
+### Installation
 
-	haxe -main "Main" --interp -lib thx.core
+Il vous faut d'abord installer la version 3.4.7 de [https://haxe.org/download/](Haxe), puis installer les librairies hxcpp et thx.core.
 
-En python (version 3.7):
+### Compilation	
 
-	pour compiler le programme en Python : haxe build-py.hxml
-	puis pour le le lancer : py StarIntersect.py -f1 "monfichier.star" -f2 "monfichier.star" -o "resultats.txt"
+#### En python (version 3.7)
 
-ou sinon en C++ :
+pour compiler le programme en Python : 
+```
+haxe build-py.hxml
+```
 
-	pour compiler le programme en CPP : haxe build-cpp.hxml
-	puis pour le le lancer : StarIntersect -f1 "monfichier.star" -f2 "monfichier.star" -o "resultats.txt"
+#### En C++
+
+Sur la distrib de votre choix (windows, mac ou linux), compiler le programme en CPP avec la commande suivante : 
+```
+haxe build-<distrib>.hxml
+```
 	
 ## Documentation
 
 ####	Usage
 ```
-	StarIntersect -f1 <fichier> -f2 <fichier> -o <fichier>
+StarIntersect -f1 <fichier> -f2 <fichier> -o <fichier>
 ```
 ####	Options
 ```
