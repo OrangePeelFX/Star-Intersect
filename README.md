@@ -20,19 +20,16 @@ ou sinon en C++ :
 	
 ## Documentation
 
- Usage : py StarIntersect.py -f1 <fichier> -f2 <fichier> -o <fichier>
- Options :
-  -f1 <fichier> : Fichier du 1er dataset
-  -f2 <fichier> : Fichier du 2nd dataset
-  -o  <fichier> : Fichier de sortie de l'intersection
-
 ####	Usage
+```
 	StarIntersect -f1 <fichier> -f2 <fichier> -o <fichier>
+```
 ####	Options
- - f1 <fichier> : Fichier du 1er dataset
- - f2 <fichier> : Fichier du 2nd dataset
- - o  <fichier> : Fichier de sortie de l'intersection
-
+```
+- f1 <fichier> : Fichier du 1er dataset
+- f2 <fichier> : Fichier du 2nd dataset
+- o  <fichier> : Fichier de sortie de l'intersection
+```
 ------------------------------
 
 ## Algorithme
