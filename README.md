@@ -36,7 +36,6 @@ StarIntersect -f1 <fichier> -f2 <fichier> -o <fichier>
 - f2 <fichier> : Fichier du 2nd dataset
 - o  <fichier> : Fichier de sortie de l'intersection
 ```
-------------------------------
 
 ## Algorithme
 
