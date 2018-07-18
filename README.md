@@ -6,7 +6,7 @@ Ce programme sert à l'intersection des données mrcs de 2 fichiers STAR
 
 ### Installation
 
-Il vous faut d'abord installer la version 3.4.7 de [https://haxe.org/download/](Haxe), puis installer les librairies hxcpp et thx.core.
+Il vous faut d'abord installer la version 3.4.7 de [Haxe](https://haxe.org/download/), puis installer les librairies [hxcpp](https://lib.haxe.org/p/hxcpp/) et [thx.core](https://lib.haxe.org/p/thx.core/).
 
 ### Compilation	
 
